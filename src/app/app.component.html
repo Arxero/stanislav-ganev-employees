@@ -1,0 +1,15 @@
+<div class="upload-section">
+  <button mat-raised-button color="primary" (click)="file.click()">
+    <mat-icon>add</mat-icon>
+    Add
+  </button>
+  <input
+    #file
+    hidden
+    type="file"
+    [accept]="acceptedFiles"
+    (change)="upload(file.files)"
+  />
+
+</div>
+<app-datagrid [employees]="employeesGridData"></app-datagrid>

@@ -1,0 +1,29 @@
+section {
+  .btn-mode-wrapper {
+    text-align: right;
+  }
+
+  .btn-mode {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .btn-action {
+    margin: 5px;
+  }
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+
+  th {
+    text-align: center;
+  }
+}
+
+mat-form-field {
+  width: 100%;
+}
